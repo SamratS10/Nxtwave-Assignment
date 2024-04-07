@@ -23,7 +23,7 @@ const LearningCard = () => {
       <ul className="learning-card-box">
         {
             cardDetails.map((each)=>(
-                <li key={each.title} className="card my-2 shadow" style={{width:"320px",height:"fit-content",backgroundColor:"#e5f0f8"}}>
+                <li key={each.title} className="card m-2 shadow" style={{width:"320px",height:"fit-content",backgroundColor:"#e5f0f8"}}>
                     <h1 className="fs-4 text-center text-white p-2" style={{backgroundColor:"#1037B7"}}>{each.title}</h1>
                     {each.firstTitle ? <h3 className="fs-5 px-2 fw-bold">{each.firstTitle}</h3> :""}
                     {
