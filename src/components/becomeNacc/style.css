@@ -1,0 +1,36 @@
+.ncca-card{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #e5f0f8;
+}
+.input-container{
+    margin-top: 10px;
+    border-top: #1F1298 4px solid;
+    border-left: solid 1px grey;
+    border-right: solid 1px grey;
+    border-bottom: solid 1px grey;
+    padding: 10px;
+    background-color: #fff;
+}
+@media screen and (min-width:768px){
+    .about-container{
+        flex-direction: row;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+    .box-1{
+        width: 50%;
+
+    }
+    .input-container{
+        width: 50%;
+        margin-top: 0px;
+        height: fit-content;
+    }
+}
